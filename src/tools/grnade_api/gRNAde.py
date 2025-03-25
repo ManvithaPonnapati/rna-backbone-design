@@ -31,7 +31,7 @@ PROJECT_PATH = ""
 # Model checkpoint paths corresponding to data split and maximum no. of conformers
 CHECKPOINT_PATH = {
     'all': {
-        1: os.path.join("src/tools/grnade_api/checkpoints/gRNAde_ARv1_1state_all.h5"),
+        1: os.path.join("/rna-backbone-design/src/tools/grnade_api/checkpoints/gRNAde_ARv1_1state_all.h5"),
         # 2: os.path.join(PROJECT_PATH, "checkpoints/gRNAde_ARv1_2state_all.h5"),
         # 3: os.path.join(PROJECT_PATH, "checkpoints/gRNAde_ARv1_3state_all.h5"),
         # 5: os.path.join(PROJECT_PATH, "checkpoints/gRNAde_ARv1_5state_all.h5"),
